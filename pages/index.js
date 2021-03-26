@@ -10,6 +10,7 @@ export default function Home() {
                     alt="Picture of ya boi"
                     width={650}
                     height={500}
+                    priority="true"
                 />
                 <h1 className="font-sans text-white text-center mb-8 text-4xl md:text-8xl">Justin <span className="text-green">Teves</span></h1>
                 <h2 className="font-sans text-white text-center text-lg md:text-4xl">Software <span className="text-red">Engineer</span> with a computer and a <span className="text-orange">dream.</span></h2>
