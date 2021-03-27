@@ -9,6 +9,23 @@ module.exports = {
             },
             white: {
                 DEFAULT: "#FFFFFF",
+            },
+
+            red: {
+                DEFAULT: "#FF6B6B",
+            },
+
+            green: {
+                DEFAULT: "#1dd1a1",
+                dark: "#10ac84"
+            },
+
+            grey: {
+                DEFAULT: "#636e72",
+            },
+
+            blue: {
+                DEFAULT: "#2e86de",
             }
         },
 
@@ -17,6 +34,7 @@ module.exports = {
             'green': "#1dd1a1",
             'red': '#FF6B6B',
             'orange': '#FF9F43',
+            'grey': "#636e72",
         },
 
         extend: {

@@ -31,25 +31,25 @@ export default function Container(props) {
                 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
             </Head>
             <nav className="flex justify-end">
-                <ul className="flex justify-end justify-around w-4/12 p-4 max-w-lg">
+                <ul className="flex justify-end justify-around w-full lg:w-4/12 p-4 max-w-lg">
                     <li>
                         <Link href="https://twitter.com/justin_teves_">
-                            <a className="font-sans text-lg text-red underline">twitter</a>
+                            <a className="font-sans text-xl text-red underline">twitter</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="http://www.github.com/JustinTheeDude" target="_blank">
-                            <a className="font-sans text-lg text-orange underline">github</a>
+                            <a className="font-sans text-xl text-orange underline">github</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/about">
-                            <a className="font-sans text-lg text-green underline">blog</a>
+                            <a className="font-sans text-xl text-green underline">blog</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/">
-                            <a className="font-sans text-lg text-red underline">resume</a>
+                            <a className="font-sans text-xl text-orange underline">resume</a>
                         </Link>
                     </li>
                 </ul>
